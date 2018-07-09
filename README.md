@@ -4,7 +4,7 @@ Dockerfile for building an image to run the Alerta web ui using Nginx.
 
 ## Build arguments
 
-**VERSION:** Version of the [alerta-web-ui](https://github.com/alerta/angular-alerta-webui/releases) to use, without using "v" as prefix
+**VERSION:** Version of the [alerta-web-ui](https://github.com/alerta/angular-alerta-webui/releases) to use.
 
 ## Image
 
@@ -13,7 +13,7 @@ Images are published on https://quay.io/repository/richerve/alerta-web
 Tags represent versions released on github.
 
 - `latest` always point to latest version.
-- `master` points to the master branch.
+- `master-<date>` points to the master branch.
 
 ## License
 
